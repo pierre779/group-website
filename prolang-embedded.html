@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Team Members - CSCI 318 Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+:root {
+  --primary-color: #4a6fa5;
+  --secondary-color: #166088;
+  --accent-color: #fcbf49;
+  --light-bg: #f8f9fa;
+  --dark-text: #2c3e50;
+  --header-bg: rgba(74, 111, 165, 0.8);
+  --card-bg: rgba(255, 255, 255, 0.9);
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3f2fd;
+    color: var(--dark-text);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    padding: 15px;
+    background-color: var(--header-bg);
+    color: white;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.team-member {
+    background-color: var(--card-bg);
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+    max-width: 800px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.member-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.member-info img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--accent-color);
+    margin-bottom: 20px;
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+}
+
+.member-info img:hover {
+    transform: scale(1.05);
+}
+
+.member-info h3 {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.member-info p {
+    color: var(--dark-text);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 600px;
+}
+
+#overlay {
+    position:fixed;
+    z-index: -2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        padding: 12px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .team-member {
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .member-info img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .member-info h3 {
+        font-size: 1.3rem;
+    }
+
+    .member-info p {
+        font-size: 1rem;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="overlay">
+
+        </div>
+        <h1>Our Team Members</h1>
+
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <div class="member-info">
+                <h3>Member 1</h3>
+                <img src="member1.jpg" alt="Photo of Member 1">
+                <p>This is a short biography for Member 1. Replace this text with actual information about the team member.</p>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="Kirsty Larsen">
+            <div class="member-info">
+                <h3>Member 2</h3>
+                <img src="https://lh3.googleusercontent.com/d/18UKHeM7EdtDjKggPolLzpIfwI2qURTrL" alt="Photo of Member 2">
+                <p>Hi, my name is Kirsty Larsen. I am a Third-year Computer Science student at New York Institute of Technology and a member of the Honors College. I am interested in software development and technology. I also enjoy being involved in campus activities and loves reading.</p>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <div class="member-info">
+                <h3>Member 3</h3>
+                <img src="member3.jpg" alt="Photo of Member 3">
+                <p>This is a short biography for Member 3. Replace this text with actual information about the team member.</p>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member">
+            <div class="member-info">
+                <h3>Member 4</h3>
+                <img src="member4.jpg" alt="Photo of Member 4">
+                <p>This is a short biography for Member 4. Replace this text with actual information about the team member.</p>
+            </div>
+        </div>
+    </body>
+</html>
